@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 10;
+    background: #fff;
+    zoom: 1.25;
+}
+
+header {
+    background: #4d7c36;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 10;
+    font-size: 32px;
+}
+
+header p {
+    margin: 10px 0 20px;
+    font-size: 16px;
+}
+
+
+
+.btn {
+    background: #444;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+
+.gallery {
+    background: #e8f0e1;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.about {
+    background: white;
+    color: #333;
+    text-align: center;
+    padding: 106px 10px;
+}
+.contacts {
+    background: white;
+    color: #333;
+    text-align: center;
+    padding: 134px 10px;
+}
+.about-box, .contacts-box {
+    background: rgba(217, 217, 217, 1);
+    color: #333;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-size: 15px;
+}
+article {
+    background-color: #4d7c36;
+    padding: 20px;
+    width: 1024;
+    height: 140px
+}
+
+footer {
+    background: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
